@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Products\Commands\" />
+    <Folder Include="Products\Validations\" />
+    <Folder Include="Products\Services\" />
+    <Folder Include="Products\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjetoBase.Shared\ProjetoBase.Shared\ProjetoBase.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

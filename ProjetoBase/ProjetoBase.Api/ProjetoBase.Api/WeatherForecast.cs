@@ -1,6 +1,6 @@
 using System;
 
-namespace Sebrae.NI.Api
+namespace ProjetoBase.Api
 {
     public class WeatherForecast
     {
